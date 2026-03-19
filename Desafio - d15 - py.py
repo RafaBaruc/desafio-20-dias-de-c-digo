@@ -1,6 +1,6 @@
-t = int(input())
-vm = int(input())
+km = int(input())
+l = float(input())
 
-cons = (t * vm)/12
+consumo = km / l
 
-print(f"{cons:.3f}")
+print(f"{consumo:.3f} km/l")
